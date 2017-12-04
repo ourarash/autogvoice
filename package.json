@@ -1,0 +1,30 @@
+{
+  "name": "autogvoice",
+  "version": "1.0.0",
+  "description": "Automatically send SMS messages from Google Voice",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ourarash/autogvoice.git"
+  },
+  "keywords": [
+    "google",
+    "voice",
+    "sms",
+    "selenium"
+  ],
+  "author": "Ari Saif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ourarash/autogvoice/issues"
+  },
+  "homepage": "https://github.com/ourarash/autogvoice#readme",
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0",
+    "watsonhelper": "^1.1.1",
+    "winston": "^3.0.0-rc1"
+  }
+}
